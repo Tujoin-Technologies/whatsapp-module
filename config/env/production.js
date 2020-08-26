@@ -48,7 +48,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       // adapter: 'sails-mysql',
-      // url: 'mysql://user:password@host:port/database',
+      // url: process.env.sails_datastores__default__url,
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -185,7 +185,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     // adapter: '@sailshq/connect-redis',
-    // url: 'redis://user:password@localhost:6379/databasenumber',
+    // url: process.env.REDIS,
     //--------------------------------------------------------------------------
     // /\   OR, to avoid checking it in to version control, you might opt to
     // ||   set sensitive credentials like this using an environment variable.
@@ -377,8 +377,8 @@ module.exports = {
     baseUrl: 'https://example.com',
     internalEmailAddress: 'support@example.com',
 
-    // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
-    // stripeSecret: 'sk_prod__fake_Nfgh82401348jaDa3lkZ0d9Hm',
+    // sendgridSecret: process.env.SENDGRID,
+    // stripeSecret: process.env.STRIPE,
     //--------------------------------------------------------------------------
     // /\   OR, to avoid checking them in to version control, you might opt to
     // ||   set sensitive credentials like these using environment variables.
