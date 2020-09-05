@@ -15,7 +15,7 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install --production
 
-ENV NODE_ENV production
+ENV NODE_ENV productionsail
 ENV PORT 3000
 
 USER node
@@ -24,4 +24,4 @@ EXPOSE 3000
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . ./app
 
-CMD ["npm", "start"]
+CMD ["sails", "lift"]
