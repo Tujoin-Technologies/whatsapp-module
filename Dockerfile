@@ -22,6 +22,6 @@ USER node
 
 EXPOSE 3000
 # Copy the rest of your app's source code from your host to your image filesystem.
-COPY . ./app
+COPY . ./
 
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
