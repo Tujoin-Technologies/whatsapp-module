@@ -1,10 +1,11 @@
 {
-  "name": "whatsappshop",
+  "name": "whatsapp-module",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "whatsapp module for breakroom to manage communication in whatsapp business.",
   "keywords": [],
   "dependencies": {
+    "@adiwajshing/baileys": "^2.3.1",
     "@sailshq/connect-redis": "^3.2.1",
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
@@ -34,8 +35,8 @@
     "type": "git",
     "url": "git://github.com/martin/whatsappshop.git"
   },
-  "author": "martin",
-  "license": "",
+  "author": "Martin Mutua",
+  "license": "MIT",
   "engines": {
     "node": "^12.18"
   }
