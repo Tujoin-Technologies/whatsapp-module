@@ -33,10 +33,10 @@ module.exports.custom = {
   * > app when it's first generated.                                        *
   *                                                                         *
   **************************************************************************/
-  platformCopyrightYear: '2019',
-  platformName:  'NEW_APP_NAME',
-  platformCompanyName: 'NEW_APP_COMPANY_NAME',
-  platformCompanyAboutHref: 'https://sailsjs.com/about',
+  platformCopyrightYear: '2020',
+  platformName:  'breakroom',
+  platformCompanyName: 'Tujoin Technologies',
+  platformCompanyAboutHref: 'https://tujointech.com/about',
   privacyPolicyUpdatedAt: 'DATE_PRIVACY_POLICY_LAST_UPDATED',
   termsOfServiceUpdatedAt: 'DATE_TERMS_OF_SERVICE_LAST_UPDATED',
 
@@ -74,14 +74,14 @@ module.exports.custom = {
   //--------------------------------------------------------------------------
 
   // The sender that all outgoing emails will appear to come from.
-  fromEmailAddress: 'noreply@example.com',
-  fromName: 'The NEW_APP_NAME Team',
+  fromEmailAddress: 'noreply@tujointech.com',
+  fromName: 'The Breakroom Team',
 
   // Email address for receiving support messages & other correspondences.
   // > If you're using the default privacy policy, this will be referenced
   // > as the contact email of your "data protection officer" for the purpose
   // > of compliance with regulations such as GDPR.
-  internalEmailAddress: 'support+development@example.com',
+  internalEmailAddress: 'support+development@tujointech.com',
 
   // Whether to require proof of email address ownership any time a new user
   // signs up, or when an existing user attempts to change their email address.
