@@ -24,4 +24,4 @@ EXPOSE 3000
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . ./app
 
-CMD ["sails", "lift"]
+CMD ["node", "app.js"]
