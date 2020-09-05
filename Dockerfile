@@ -15,7 +15,7 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install --production
 
-ENV NODE_ENV productionsail
+ENV NODE_ENV production
 ENV PORT 3000
 
 USER node
