@@ -1,5 +1,7 @@
 # whatsappshop
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d4c03b0c0b1419fae90ebe54efa0f32)](https://www.codacy.com/gh/Tujoin-Technologies/whatsapp-module/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tujoin-Technologies/whatsapp-module&amp;utm_campaign=Badge_Grade)
+
 a [Sails v1](https://sailsjs.com) application
 
 
